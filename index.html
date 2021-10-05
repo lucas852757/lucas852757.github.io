@@ -1,27 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifólio</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<style>
+		body {
+			background-color: whitesmoke
+		}
+
+		.tamanho12 {
+			font-size: 12px;
+		}
+
+		.tamanho20 {
+			font-size: 20px;
+		}
+
+		.tamanho30 {
+			font-size: 35px;
+		}
+
+		.fonte-nome {
+			font-family: Montserrat, serif;
+			font-size: 40px;
+		}
+
+		.fonte-texto {
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+
+		.font-width-bold {
+			font-weight: bold;
+		}
+	</style>
+	<title>Meu portifólio</title>
 </head>
+
 <body>
-	<img src="imagens/2021-09-18-170236.jpg" alt="Estudante da Trybe." width= 200px id="imagem">
-	<p>Lucas Aparício Galvão Fernandes.</p>
-	<p>Oi! Meu mome é Lucas.Sou brasileiro, natural da cidade de Itajubá-MG. Atualmente moro na cidade de Piranguçu-MG.</p>
-	<p>Gosto muito da área de informática. Nas horas vagas gosto de aprender inglês.<br>
-		Atualmente, estudo na <strong>Trybe</strong>, que é uma escola de <em>Web Developement</em> . </p>
-	
-		<p>Abilidades:</p>
+	<img src="imagens/2021-09-18-170236.jpg" alt="Estudante da Trybe." width=200px id="imagem">
+	<p class="fonte-nome">Lucas Aparício Galvão Fernandes.</p>
+	<p class="fonte-texto">Oi! Meu mome é Lucas.Sou brasileiro, <em class="font-width-bold">natural da cidade de
+			Itajubá-MG</em> . Atualmente moro na cidade de Piranguçu-MG.
+	</p>
+	<p class="fonte-texto">
+		</pclass>Gosto muito da área de informática. Nas horas vagas gosto de aprender inglês.<br>
+		Atualmente, estudo na <strong>Trybe</strong>, que é uma escola de <strong>Web Developement</strong> . </p>
+
+	<p>Abilidades:</p>
 	<ul>
-		<li>Um pouco de Python</li>
-		<li><mark>Inglês Básicio</mark></li>
-		<li>Git&Github</li>
+		<li class="tamanho12">Um pouco de Python</li>
+		<li class="tamanho20"><mark>Inglês Básicio</mark></li>
+		<li class="tamanho30">Git&Github</li>
 	</ul>
-	
+
 	<p><a href="https://blog.pythonbrasil.org.br/" target="_blank">Blog</a></p>
 	<a href="#imagem">Minha foto</a>
-    
+
 </body>
+
 </html>

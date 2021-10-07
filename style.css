@@ -1,0 +1,52 @@
+
+		body {
+			background-color: whitesmoke
+		}
+
+		.tamanho12 {
+			font-size: 12px;
+		}
+
+		.tamanho20 {
+			font-size: 20px;
+		}
+
+		.tamanho30 {
+			font-size: 35px;
+		}
+
+		.fonte-nome {
+			font-family: Montserrat, serif;
+			font-size: 40px;
+		}
+
+		.fonte-texto {
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+
+		.font-width-bold {
+			font-weight: bold;
+		}
+    .descricao {
+      height: 220px;
+    }
+
+    #imagem {
+      float:left;
+      padding: 20px;
+      background-color:darkgoldenrod;
+    }
+
+    .centraliza {
+      text-align: center;
+    }
+
+  div div p {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  ul li:nth-child(even) {
+    text-transform: uppercase;
+  }
